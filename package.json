@@ -1,0 +1,18 @@
+{
+  "name": "imgpack",
+  "version": "0.0.0",
+  "author": "Tom Novelli <tn@tnovelli.net> (http://tnovelli.net/)",
+  "description": "simple image/texture atlas packer",
+  "bin": { "imgpack": "./imgpack.js" },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tnovelli/imgpack.git"
+  },
+  "dependencies": {
+    "pngjs": ">=0.4",
+    "async": ">=0.2.7"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
